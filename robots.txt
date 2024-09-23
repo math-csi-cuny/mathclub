@@ -1,1 +1,1 @@
-Sitemap: https://github.com/math-csi-cuny/mathclub/sitemap.xml
+Sitemap: https://math-csi-cuny.github.io/mathclub/sitemap.xml
