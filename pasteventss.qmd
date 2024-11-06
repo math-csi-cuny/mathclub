@@ -4,24 +4,13 @@ title: "Past Events!"
 
 Each semester, the Math Club holds new and exciting events to get the student body involved in mathematics! Here is a past catalogue of our events: if you like what you see, come join us!
 
-## Club Officers (2024-2025)
+# Past Events
 
-President
-: Megan Trapanese
+Here is a list of past events hosted by the Math Club at CUNY CSI:
 
-Vice President
-: Kenny Feng
-
-Secretary
-: Frank Feng
-
-Treasurer
-: Jenna Como
-
-Faculty Advisor
-: Joe Quinn
-: Mikael Vejdemo-Johansson (on hiatus 2023-2025)
-
-## Activities (2024-2025)
-
-We are planning regular biweekly meetings, some on Tuesday club hours, some on Thursday club hours. We have plans to host faculty talks.
+| **Event Title**           | **Date**           | **Description**                                       |
+|---------------------------|--------------------|-------------------------------------------------------|
+| [Math Club x Open Minds Exchange!](assets/OMExMathClub_flyer.pdf)      | October 24th, 2024: 1S-219, 2:30      | An intruiging and intellectual conversation with the Open Minds Exchange      |
+| [Beyond the Numbers: An Afternoon of Games!](path/to/flyer2.pdf)         | October 17th, 2024: 1S-214, 2:30     | Join the Math Club for an afternoon of fun, strategy, and board games!|
+| [Calculus Help Night](path/to/flyer3.pdf)        | April 10, 2023     | A tutoring session for students preparing for exams.  |
+| [Math Puzzle Challenge](path/to/flyer4.pdf)      | May 1, 2023        | A fun, interactive event with math puzzles and prizes.|
