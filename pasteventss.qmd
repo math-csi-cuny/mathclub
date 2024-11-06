@@ -8,9 +8,13 @@ Each semester, the Math Club holds new and exciting events to get the student bo
 
 Here is a list of past events hosted by the Math Club at CUNY CSI:
 
+## Fall 2024
+
 | **Event Title**           | **Date**           | **Description**                                       |
 |---------------------------|--------------------|-------------------------------------------------------|
-| [Math Club x Open Minds Exchange!](assets/OMExMathClub_flyer.pdf)      | October 24th, 2024: 1S-219, 2:30      | An intruiging and intellectual conversation with the Open Minds Exchange      |
+| [Math Club x Open Minds Exchange!](assets/OMExMathClub_flyer.pdf)      | October 24th, 2024: 1S-219, 2:30      | An intriguing and intellectual conversation with the Open Minds Exchange!      |
 | [Beyond the Numbers: An Afternoon of Games!](path/to/flyer2.pdf)         | October 17th, 2024: 1S-214, 2:30     | Join the Math Club for an afternoon of fun, strategy, and board games!|
-| [Calculus Help Night](path/to/flyer3.pdf)        | April 10, 2023     | A tutoring session for students preparing for exams.  |
-| [Math Puzzle Challenge](path/to/flyer4.pdf)      | May 1, 2023        | A fun, interactive event with math puzzles and prizes.|
+| [Math Club General Interest Meeting](path/to/flyer3.pdf)        | September 19th, 2024: 1S-219, 2:30     | Come learn more about the Math Club and how you can get involved!|
+| [Simons Undergraduate Lecture: "On Buttons and Balls that Cannot Run Away", Prof. Bernd Kawhol of University of Cologne, Germany](path/to/flyer4.pdf)      | May 1, 2023        | A fun, interactive event with math puzzles and prizes. |
+
+## Spring 2024
