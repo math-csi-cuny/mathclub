@@ -11,11 +11,12 @@ Here is a list of past events hosted by the Math Club at CUNY CSI:
 
 ## Fall 2024
 
-| **Event Title**           | **Date**           | **Description**                                       |
-|---------------------------|--------------------|-------------------------------------------------------|
-| [Math Club x Open Minds Exchange!](assets/OMExMathClub_flyer.pdf)      | October 24th, 2024: 1S-219, 2:30      | An intriguing and intellectual conversation with the Open Minds Exchange!      |
-| [Beyond the Numbers: An Afternoon of Games!](assets/FallGames1.pdf)         | October 17th, 2024: 1S-214, 2:30     | Join the Math Club for an afternoon of fun, strategy, and board games!|
-| [Math Club General Interest Meeting](assets/general_interest_flyer.pdf)        | September 19th, 2024: 1S-219, 2:30     | Come learn more about the Math Club and how you can get involved!|
-| [Simons Undergraduate Lecture: "On Buttons and Balls that Cannot Run Away", Prof. Bernd Kawhol of University of Cologne, Germany](assets/bernd.pdf)      | September 10th, 2024: 1P-119 Lecture Hall, 2:30       | "In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some \textbf{British coins have corners and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger" |
+
+| **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
+|---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
+| [Math Club x Open Minds Exchange!](assets/OMExMathClub_flyer.pdf)              | October 24th, 2024: 1S-219, 2:30      | An intriguing and intellectual conversation with the Open Minds Exchange! | [Featured on CSI's LinkedIn page!](https://www.linkedin.com/posts/college-of-staten-island-city-university-of-new-york_wearecsi-activity-7256737820742938624-85hG?utm_source=share&utm_medium=member_desktop)             |
+| [Beyond the Numbers: An Afternoon of Games!](assets/FallGames1.pdf)            | October 17th, 2024: 1S-214, 2:30      | Join the Math Club for an afternoon of fun, strategy, and board games!   |                   |
+| [Math Club General Interest Meeting](assets/general_interest_flyer.pdf)        | September 19th, 2024: 1S-219, 2:30    | Come learn more about the Math Club and how you can get involved!        | [Slides Here!](assets/csimath_club_gim.pdf)     |
+| [Simons Undergraduate Lecture: "On Buttons and Balls that Cannot Run Away", Prof. Bernd Kawhol of University of Cologne, Germany](assets/bernd.pdf) | September 10th, 2024: 1P-119 Lecture Hall, 2:30 | "In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some **British coins have corners** and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger" | Lecture followed by Q&A with the professor |
 
 ## Spring 2024
