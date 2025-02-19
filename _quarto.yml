@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - href: pasteventss.qmd
-        text: Home
+        text: Events
       - about.qmd
       - index.qmd
 
