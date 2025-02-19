@@ -5,10 +5,10 @@ website:
   title: "Math Club at CUNY CSI"
   navbar:
     left:
-      - href: index.qmd
+      - href: pasteventss.qmd
         text: Home
       - about.qmd
-      - pasteventss.qmd
+      - index.qmd
 
 format:
   html:
