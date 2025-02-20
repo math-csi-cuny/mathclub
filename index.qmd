@@ -1,5 +1,5 @@
 ---
-title: "Math Club!"
+title: "Home"
 ---
 Welcome to the Math Club at the College of Staten Island!
 
