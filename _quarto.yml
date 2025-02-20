@@ -5,7 +5,7 @@ website:
   title: "Math Club at CUNY CSI"
   navbar:
     left:
-      - href: index.qmd
+      - href: Home.qmd
         text: Home
       - about.qmd
       - mathstuff.qmd
