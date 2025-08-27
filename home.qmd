@@ -7,15 +7,19 @@ Welcome to the Math Club at the College of Staten Island!
 ## Upcoming Events!
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
-| [Pi Day Celebration!](assets/mathclubsocial0225)              | March 13th, 2025: 1S-214, 2:45      | It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert! |             |
 
 Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
+
+## Fall 2025
+| **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
+|---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
 
 ## Spring 2024
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
 | [Love Algorithms: The Math of Modern Love](assets/OMExMathClub_flyer.pdf)              | February 12th, 2025: 1S-219, 3:00      | How does math shape dating algorithms? | [Short video explaining it all!](https://www.youtube.com/watch?v=uZLkhkCmwHg)             |
 | [Math Club Social](assets/mathclubsocial0225)              | February 25th, 2025: 1S-214, 3:00      | Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social! |             |
+| [Pi Day Celebration!](assets/mathclubsocial0225)              | March 13th, 2025: 1S-214, 2:45      | It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert! |             |
 
 ## Fall 2024
 
