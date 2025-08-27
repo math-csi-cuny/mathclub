@@ -11,14 +11,21 @@
     "href": "home.html#upcoming-events",
     "title": "Home",
     "section": "Upcoming Events!",
-    "text": "Upcoming Events!\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\nPi Day Celebration!\nMarch 13th, 2025: 1S-214, 2:45\nIt’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert!\n\n\n\n\nHere is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!"
+    "text": "Upcoming Events!\n\n\n\n\n\n\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\n\nHere is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!"
+  },
+  {
+    "objectID": "home.html#fall-2025",
+    "href": "home.html#fall-2025",
+    "title": "Home",
+    "section": "Fall 2025",
+    "text": "Fall 2025\n\n\n\n\n\n\n\n\n\nEvent Title\nDate\nDescription\nExtra Information"
   },
   {
     "objectID": "home.html#spring-2024",
     "href": "home.html#spring-2024",
     "title": "Home",
     "section": "Spring 2024",
-    "text": "Spring 2024\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\nLove Algorithms: The Math of Modern Love\nFebruary 12th, 2025: 1S-219, 3:00\nHow does math shape dating algorithms?\nShort video explaining it all!\n\n\nMath Club Social\nFebruary 25th, 2025: 1S-214, 3:00\nWhether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!"
+    "text": "Spring 2024\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\nLove Algorithms: The Math of Modern Love\nFebruary 12th, 2025: 1S-219, 3:00\nHow does math shape dating algorithms?\nShort video explaining it all!\n\n\nMath Club Social\nFebruary 25th, 2025: 1S-214, 3:00\nWhether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!\n\n\n\nPi Day Celebration!\nMarch 13th, 2025: 1S-214, 2:45\nIt’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert!"
   },
   {
     "objectID": "home.html#fall-2024",
@@ -26,27 +33,6 @@
     "title": "Home",
     "section": "Fall 2024",
     "text": "Fall 2024\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\nStudent Research Presentations (Megan Trapanese)\nDecember 12th, 2024: 1S-219, 2:30\nMegan Trapanese (senior, MHC) presents her novel research on dimensonal reduction in the context of ensemble ocean modeling\nCheck out her talk!\n\n\nTopology & Cosmology, presented by Dr. Joseph Quinn!\nNovember 26th, 2024: 1S-219, 2:30\nA talk on 3-dimensional topology and its relationship to the shape of the physical universe.\n\n\n\nMath Club x Open Minds Exchange!\nOctober 24th, 2024: 1S-219, 2:30\nAn intriguing and intellectual conversation with the Open Minds Exchange!\nFeatured on CSI’s LinkedIn page!\n\n\nBeyond the Numbers: An Afternoon of Games!\nOctober 17th, 2024: 1S-214, 2:30\nJoin the Math Club for an afternoon of fun, strategy, and board games!\n\n\n\nMath Club General Interest Meeting\nSeptember 19th, 2024: 1S-219, 2:30\nCome learn more about the Math Club and how you can get involved!\nSlides Here!\n\n\nSimons Undergraduate Lecture: “On Buttons and Balls that Cannot Run Away”, Prof. Bernd Kawhol of University of Cologne, Germany\nSeptember 10th, 2024: 1P-119 Lecture Hall, 2:30\n“In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some British coins have corners and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger”\nLecture followed by Q&A with the professor"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The Math Club at College of Staten Island is a student activities club, registered with the Office of Student Life and funded by the student activity fee."
-  },
-  {
-    "objectID": "about.html#club-officers-2024-2025",
-    "href": "about.html#club-officers-2024-2025",
-    "title": "About",
-    "section": "Club Officers (2024-2025)",
-    "text": "Club Officers (2024-2025)\n\nPresident\n\nMegan Trapanese\n\nVice President\n\nKenny Feng\n\nSecretary\n\nFrank Feng\n\nTreasurer\n\nJenna Como\n\nFaculty Advisor\n\nAbhijit Champanerkar\n\n\nJoe Quinn\n\n\nFreda Li"
-  },
-  {
-    "objectID": "about.html#activities-2024-2025",
-    "href": "about.html#activities-2024-2025",
-    "title": "About",
-    "section": "Activities (2024-2025)",
-    "text": "Activities (2024-2025)\nWe are planning regular biweekly meetings, some on Tuesday club hours, some on Thursday club hours. We have plans to host faculty talks."
   },
   {
     "objectID": "mathstuff.html",
@@ -68,5 +54,26 @@
     "title": "Cool Math Stuff",
     "section": "Spring 2024",
     "text": "Spring 2024"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Math Club at College of Staten Island is a student activities club, registered with the Office of Student Life and funded by the student activity fee."
+  },
+  {
+    "objectID": "about.html#club-officers-2024-2025",
+    "href": "about.html#club-officers-2024-2025",
+    "title": "About",
+    "section": "Club Officers (2024-2025)",
+    "text": "Club Officers (2024-2025)\n\nPresident\n\nMegan Trapanese\n\nVice President\n\nKenny Feng\n\nSecretary\n\nFrank Feng\n\nTreasurer\n\nJenna Como\n\nFaculty Advisor\n\nAbhijit Champanerkar\n\n\nJoe Quinn\n\n\nFreda Li"
+  },
+  {
+    "objectID": "about.html#activities-2024-2025",
+    "href": "about.html#activities-2024-2025",
+    "title": "About",
+    "section": "Activities (2024-2025)",
+    "text": "Activities (2024-2025)\nWe are planning regular biweekly meetings, some on Tuesday club hours, some on Thursday club hours. We have plans to host faculty talks."
   }
 ]
