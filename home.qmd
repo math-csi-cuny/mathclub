@@ -7,6 +7,7 @@ Welcome to the Math Club at the College of Staten Island!
 ## Upcoming Events!
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
+| [Mathematical Principles of Generative Diffusion Models](assets/OMExMathClub_flyer.pdf)              | September 11th, 2025: 1S-219, 2:30      | How does Generative AI work? | Invited talk by Dr. Robert Ferrando.          |
 
 Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
 
