@@ -7,13 +7,14 @@ Welcome to the Math Club at the College of Staten Island!
 ## Upcoming Events!
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
-| [Mathematical Principles of Generative Diffusion Models](assets/OMExMathClub_flyer.pdf)              | September 18th, 2025: 1S-219, 2:30      | What are the mathematical principles behind generative AI? Come join us on Thursday, 9/18/25, to find out! | Invited talk by Dr. Robert Ferrando.          |
+| [Fall Games!](assets/FallGames2.pdf)              | October 6th, 2025: 1S-214, 2:30      | Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun! |   |
 
 Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
 
 ## Fall 2025
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
+| [Mathematical Principles of Generative Diffusion Models](assets/OMExMathClub_flyer.pdf)              | September 18th, 2025: 1S-219, 2:30      | What are the mathematical principles behind generative AI? Come join us on Thursday, 9/18/25, to find out! | Invited talk by Dr. Robert Ferrando.          |
 
 ## Spring 2025
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
