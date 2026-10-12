@@ -5,9 +5,9 @@ Welcome to the Math Club at the College of Staten Island!
 
 # Events!
 ## Upcoming Events!
-| **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
-|---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
-| [Fall Games!](assets/FallGames2.pdf)              | October 6th, 2025: 1S-214, 2:30      | Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun! |   |
+| **Event Title** | **Date** | **Description** | **Extra Information** |
+|-----------------|----------|-----------------|-----------------------|
+| [An Introduction to Tropical Mathematics: Turning Polynomials into Polygons](assets/sera-gunn.pdf) | October 15th, 2025: 1S-213 | We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). | Talk by Dr. Sera Gunn |
 
 Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
 
@@ -15,6 +15,7 @@ Here is a list of past events hosted by the Math Club at CUNY CSI. If you like w
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
 | [Mathematical Principles of Generative Diffusion Models](assets/OMExMathClub_flyer.pdf)              | September 18th, 2025: 1S-219, 2:30      | What are the mathematical principles behind generative AI? Come join us on Thursday, 9/18/25, to find out! | Invited talk by Dr. Robert Ferrando.          |
+| [Fall Games!](assets/FallGames2.pdf)              | October 6th, 2025: 1S-214, 2:30      | Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun! |   |
 
 ## Spring 2025
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
