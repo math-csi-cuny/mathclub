@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "trop-talk/*"
 
 website:
   title: "Math Club at CUNY CSI"
@@ -15,6 +17,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
 
