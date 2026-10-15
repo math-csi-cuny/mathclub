@@ -21,6 +21,251 @@
     "text": "Activities (2025-2026)\nWe are planning regular biweekly meetings, mostly on Thursday club hours. We have plans to host faculty talks."
   },
   {
+    "objectID": "trop-talk/intro-to-trop.html#ingredients",
+    "href": "trop-talk/intro-to-trop.html#ingredients",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nPolynomials \\(f(x, y) = x^2 + y^2 - 1\\)\nYielding algebraic curves: \\(f(x, y) = 0\\)\n\nor surfaces: \\(x^2 + y^2 + z^2 = 1\\)\nGeneral terminology is “a variety” \\[V(f) = \\{(x, y) : f(x, y) = 0\\}\\]\n\nDifferent number systems (real numbers \\(\\mathbf{R}\\), complex numbers \\(\\mathbf{C}\\), modular arithmetic \\(\\mathbf{F}_p\\))"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#algebraic-curves",
+    "href": "trop-talk/intro-to-trop.html#algebraic-curves",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Algebraic Curves",
+    "text": "Algebraic Curves\n\nThe Unit Circle"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#classical-results",
+    "href": "trop-talk/intro-to-trop.html#classical-results",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Classical Results",
+    "text": "Classical Results\n\nTheorem 1 (Bézout’s Theorem) If \\(f(x, y)\\) has degree \\(p\\) and \\(g(x, y)\\) has degree \\(q\\) then generally the system \\(f(x, y) = 0\\), \\(g(x, y) = 0\\) has \\(pq\\) intersections."
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#quadratic-and-cubic",
+    "href": "trop-talk/intro-to-trop.html#quadratic-and-cubic",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Quadratic and Cubic",
+    "text": "Quadratic and Cubic\n\nThe circle (degree 2) and cubic (degree 3) have 6 intersection points"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#early-origins",
+    "href": "trop-talk/intro-to-trop.html#early-origins",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Early Origins",
+    "text": "Early Origins\n1971: George Bergman The logarithmic limit-set of an algebraic variety\n\nTake the (complex) points defined by \\(f(x, y) = 0\\)\nMap every point \\((x, y)\\) to \\((\\log_b |x|, \\log_b |y|)\\)\nTake the limit of this set as \\(b \\to \\infty\\)\n\n… limit of a set?\njust go with it…"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#a-tropical-curve",
+    "href": "trop-talk/intro-to-trop.html#a-tropical-curve",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "A Tropical Curve",
+    "text": "A Tropical Curve\n\nA Tropical Line"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#primes-and-valued-fields",
+    "href": "trop-talk/intro-to-trop.html#primes-and-valued-fields",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Primes and Valued Fields",
+    "text": "Primes and Valued Fields\nLet \\(p\\) be a prime number.\n\nDefinition 1 For integers: \\[ v_p(n) = \\text{the largest power of $p$ that goes into $n$} \\]\n\n\nDefinition 2 For rationals: \\[ v_p(m/n) = v_p(m) - v_p(n) \\]\n\n\nExample 1 \\[ v_5(200/125) = v_5(5^2 \\cdot 2^3) - v_5(5^3) = 2 - 3 = -1 \\]"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#arithmetic",
+    "href": "trop-talk/intro-to-trop.html#arithmetic",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Arithmetic",
+    "text": "Arithmetic\n\nSame value no matter how we express a fraction: \\(v_5(200/125) = v_5(8/5)\\)\n\\(v_p(x \\cdot y) = v_p(x) + v_p(y)\\)\n\\(v_p(x / y) = v_p(x) - v_p(y)\\)\n\\(v_p(x^k) = kv_p(x)\\)\n\n\nRemark 1. They behave like logarithms"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#min-property",
+    "href": "trop-talk/intro-to-trop.html#min-property",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Min-property",
+    "text": "Min-property\n\\[v_p(x + y) \\ge \\min\\{v_p(x), v_p(y)\\}\\]\n\ne.g. \\[\\begin{align*}\nv_5(250 + 200) &= v_5(5^3 \\cdot 2 + 5^2 \\cdot 2^3) \\\\\n&= v_5(5^2(5 \\cdot 2 + 2^3)) = 2\n\\end{align*}\\]\nMore precisely: if \\(v_p(x) \\neq v_p(y)\\) then \\(v_p(x + y) = \\min\\{v_p(x), v_p(y)\\}\\)\nIf \\(v_p(x) = v_p(y)\\) then \\(v_p(x + y)\\) can be any value between \\(v_p(x)\\) and \\(\\infty\\) (as long as \\(p \\neq 2\\))\n\nWait, what happens when \\(p = 2\\)?\nInvestigate yourself!\ne.g. \\(v_2(12) = v_2(20) = 2\\) but \\(v_2(32) = 3\\)"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#equations-over-valued-fields",
+    "href": "trop-talk/intro-to-trop.html#equations-over-valued-fields",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Equations over valued fields",
+    "text": "Equations over valued fields\n\\[x + y - 1 = 0\\]\nHow do \\(v_p(x)\\) and \\(v_p(y)\\) relate?\n\nIf the minimum of \\(v_p(x), v_p(y), v_p(-1) = 0\\) is unique\n\n\\(v_p(x + y - 1) = \\min\\{v_p(x), v_p(y), 0\\}\\)\n\\(v_p(x + y - 1) \\neq v_p(0) = \\infty\\)\n\\(x + y - 1 \\neq 0\\)\n\nSo the minimum is not unique\nIt occurs at least twice"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#curves-over-valued-fields",
+    "href": "trop-talk/intro-to-trop.html#curves-over-valued-fields",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "“Curves” over valued fields",
+    "text": "“Curves” over valued fields\nStart with an equation:\n\\[V(x + y - 1) = \\{x + y - 1 = 0\\}\\]\n\nTropicalize:\n\\[V(\\bar{x} \\oplus \\bar{y} \\oplus 0) = \\{\\text{min occurs at least twice}\\} \\]\n\n\nNotation: \\(V\\) means vanishing set or variety, \\(\\oplus = \\min\\)."
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#minimum-occurs-twice",
+    "href": "trop-talk/intro-to-trop.html#minimum-occurs-twice",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Minimum occurs twice",
+    "text": "Minimum occurs twice\n\\[\\min\\{\\bar x, \\bar y, 0\\}\\]\nCases:\n\n\\(\\min = \\bar x = \\bar y \\le 0\\)\n\\(\\min = \\bar x = 0 \\le \\bar y\\)\n\\(\\min = \\bar y = 0 \\le \\bar x\\)"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#min-convention-tropical-geometry",
+    "href": "trop-talk/intro-to-trop.html#min-convention-tropical-geometry",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Min-convention Tropical Geometry",
+    "text": "Min-convention Tropical Geometry\n\n…And it’s upside down"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#the-two-conventions",
+    "href": "trop-talk/intro-to-trop.html#the-two-conventions",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "The two conventions",
+    "text": "The two conventions\n\nMin-convention \\(v_p, \\min, v_p(0) = \\infty\\)\nMax-convention \\(|x|_p = p^{-v_p(x)}, \\max, |0|_p = - \\infty\\)\n\nexponential can have any base but \\(p\\) is the convention"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#triangles",
+    "href": "trop-talk/intro-to-trop.html#triangles",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Triangles",
+    "text": "Triangles\nHow to compute the tropical curve associated to a tropical polynomial?\n\\[ f(x,y) = 75 + 10x - 12y + 25xy \\]\n\nRecord the valuation \\(v_5\\) at each monomial:\n\\[ \\mathrm{trop}(f) = 2 \\oplus \\bar 1x \\oplus \\bar y \\oplus 2 \\bar x \\bar y \\]"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#recipe",
+    "href": "trop-talk/intro-to-trop.html#recipe",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Recipe",
+    "text": "Recipe\n\nFor each term \\(a\\bar x^m \\bar y^n\\) lift the point \\((m, n)\\) up to a height of \\(a\\).\n\nI.e. \\((m, n, a)\\)\n\nWrap those points on the bottom with a sheet (lower convex hull).\nUse the folds in the sheet to draw polygons between the points \\((m, n)\\).\nThe tropical curve is the dual graph of this complex.\n\nRotate 180 degrees for min-convention"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#visualization",
+    "href": "trop-talk/intro-to-trop.html#visualization",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Visualization",
+    "text": "Visualization"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#a-tropical-elliptic-curve",
+    "href": "trop-talk/intro-to-trop.html#a-tropical-elliptic-curve",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "A tropical elliptic curve",
+    "text": "A tropical elliptic curve\n\nA degree 3/genus 1 tropical curve"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#tropical-bézout",
+    "href": "trop-talk/intro-to-trop.html#tropical-bézout",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Tropical Bézout",
+    "text": "Tropical Bézout\n\nBézout’s theorem for tropical curves: a degree 3 and degree 2 tropical curve intersect in 6 points generically"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#mixed-subdivisions",
+    "href": "trop-talk/intro-to-trop.html#mixed-subdivisions",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Mixed Subdivisions",
+    "text": "Mixed Subdivisions\n\nCells corresponding to intersections are quadrangles. Multiplicity of intersection = area of quadrangle"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#elliptic-curves",
+    "href": "trop-talk/intro-to-trop.html#elliptic-curves",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Elliptic Curves",
+    "text": "Elliptic Curves\nA smooth cubic curve is called an elliptic curve\n\nWeierstraß form \\[ y^2 = x^3 + px + q \\]\n\n\nAs complex surfaces these are toruses (genus 1)"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#abstract-tropical-curves",
+    "href": "trop-talk/intro-to-trop.html#abstract-tropical-curves",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Abstract Tropical Curves",
+    "text": "Abstract Tropical Curves\n\nAn tropical curve"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#abstract-tropical-curves-1",
+    "href": "trop-talk/intro-to-trop.html#abstract-tropical-curves-1",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Abstract Tropical Curves",
+    "text": "Abstract Tropical Curves\n\nAn abstract tropical curve"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#abstract-tropical-curves-2",
+    "href": "trop-talk/intro-to-trop.html#abstract-tropical-curves-2",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Abstract Tropical Curves",
+    "text": "Abstract Tropical Curves\n\nAn abstract tropical curve (skeleton)"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#source",
+    "href": "trop-talk/intro-to-trop.html#source",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Source",
+    "text": "Source\n\nImagine we have an equation \\(f(x,y)\\) with integer coefficients.\nWe can reduce mod \\(p\\) to curves over the mod-\\(p\\) number system.\nIf we have a good equation, i.e. a bad equation, this reduced equation will have self-intersections and intersecting components\n\ncomponents correspond to points\nintersections correspond to connections"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#dollars-on-graphs",
+    "href": "trop-talk/intro-to-trop.html#dollars-on-graphs",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Dollars on Graphs",
+    "text": "Dollars on Graphs\n\nPoints on an abstract tropical curve\nFor a classical curve: \\(P + Q + R = 0\\) if they are colinear\nFor a tropical curve we have borrowing moves"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#dollars-on-graphs-1",
+    "href": "trop-talk/intro-to-trop.html#dollars-on-graphs-1",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Dollars on Graphs",
+    "text": "Dollars on Graphs\n\nBorrowing/Lending Move\nAt any point, a vertex may send 1 dollar simultaneously to each of its neighbours\nQuestion: can we get everyone out of debt?"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#example-1",
+    "href": "trop-talk/intro-to-trop.html#example-1",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Example 1",
+    "text": "Example 1\n\nCan you win the dollar game?"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#example-2",
+    "href": "trop-talk/intro-to-trop.html#example-2",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Example 2",
+    "text": "Example 2\n\nCan you win the dollar game?"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#example-3",
+    "href": "trop-talk/intro-to-trop.html#example-3",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Example 3",
+    "text": "Example 3\n\nCan you win the dollar game?"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#rank-function",
+    "href": "trop-talk/intro-to-trop.html#rank-function",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Rank Function",
+    "text": "Rank Function\nLet \\(D\\) represent a given dollar game.\n\nIf \\(D\\) is unwinnable, define \\(r(D) = -1\\)\nIf \\(D\\) is only just winnable, i.e. \\(D\\) is winnable but if we take a dollar away from \\(v\\), \\(D - v\\) is unwinnable, define \\(r(D) = 0\\)\nSay \\(r(D) \\ge k\\) if taking away any \\(k\\) dollars anywhere leaves a winnable game\n\\(r(D)\\) will be the maximum \\(k\\)"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#degree-function",
+    "href": "trop-talk/intro-to-trop.html#degree-function",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Degree Function",
+    "text": "Degree Function\n\\[\\deg(D) = \\text{total dollar amount of } D\\]"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#riemann-roch-theorem",
+    "href": "trop-talk/intro-to-trop.html#riemann-roch-theorem",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Riemann-Roch Theorem",
+    "text": "Riemann-Roch Theorem\nIf a graph has genus \\(g\\) then for any game \\(D\\)\n\\[r(D) \\ge \\deg(D) + 1 - g\\]"
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#classical-riemann-roch",
+    "href": "trop-talk/intro-to-trop.html#classical-riemann-roch",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Classical Riemann-Roch",
+    "text": "Classical Riemann-Roch\nIf a surface has genus \\(g\\), and \\(D\\) is a finite set of points with multiplicities. Consider the set of rational functions whose poles are not worse than the numbers specified in \\(D\\).\n\nE.g. \\[f = \\frac{(x + 2)^4(x - 3)}{(x + 5)^3(x - 7)}\\]\n\\[\\mathrm(f) = \\{4 \\text{ at } -2, 1 \\text{ at } 3, -3 \\text{ at } -5, -1 \\text{ at } 7\\}\\]\n\n\nThis is ok for \\(D\\) = no worse than \\(-3\\) at \\(-5\\) and no worse than \\(-2\\) at \\(7\\)."
+  },
+  {
+    "objectID": "trop-talk/intro-to-trop.html#classical-riemann-roch-cont.",
+    "href": "trop-talk/intro-to-trop.html#classical-riemann-roch-cont.",
+    "title": "An Introduction to Tropical Mathematics",
+    "section": "Classical Riemann-Roch (cont.)",
+    "text": "Classical Riemann-Roch (cont.)\nA sum of two rational functions which is ok for \\(D\\) is also ok for \\(D\\). Likewise any constant multiple is ok for \\(D\\).\n\nI.e. it is a vector space\n\n\nLet \\(\\ell(D)\\) be the dimension of this space.\n\n\nTheorem 2 (Riemann-Roch) \\[\\ell(D) \\ge \\deg(D) + 1 - g\\]"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
