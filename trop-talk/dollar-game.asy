@@ -27,8 +27,8 @@ dot(gr, D, q); label("$1$", D, N, q);
 
 label("$1$", A+(4,0), W, q);
 label("$1$", B+(4,0), S, q);
-label("$-1$", C+(4,0), E, q);
-label("$1$", D+(4,0), N, q);
+label("$-2$", C+(4,0), E, q);
+label("$2$", D+(4,0), N, q);
 
 add(gr);
 add(shift(4,0) * gr);
