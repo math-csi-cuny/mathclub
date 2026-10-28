@@ -7,7 +7,8 @@ Welcome to the Math Club at the College of Staten Island!
 ## Upcoming Events!
 | **Event Title** | **Date** | **Description** | **Extra Information** |
 |-----------------|----------|-----------------|-----------------------|
-| [An Introduction to Tropical Mathematics: Turning Polynomials into Polygons](assets/sera-gunn.pdf) | October 15th, 2025: 1S-213 | We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). | [Talk by Dr. Sera Gunn](trop-talk/intro-to-trop.html) |
+| Halloween Party | October 29, 2026: 1S-219 | Join the Math Club for a fun event where we'll play games, eat food, and socialize with other people interested in math! |    |
+| [An Introduction to Tropical Mathematics: Turning Polynomials into Polygons](assets/sera-gunn.pdf) | October 15th, 2026: 1S-213 | We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). | [Talk by Dr. Sera Gunn](trop-talk/intro-to-trop.html) |
 
 Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
 
