@@ -1,18 +1,45 @@
 ---
 title: "Home"
+toc: false
 ---
-Welcome to the Math Club at the College of Staten Island!
 
-# Events!
-## Upcoming Events!
+::: {.club-hero}
+<div class="hero-mark" aria-hidden="true">∑ &nbsp; π &nbsp; ∞</div>
+
+# Math is better together.
+
+Meet curious people, explore big ideas, and make room for a little fun. Welcome to the Math Club at the College of Staten Island.
+:::
+
+# Coming up
+
+::: {.event-feature}
+::: {.event-art}
+[![Banisher board game demo poster](assets/banisher-2026.jpg)](assets/banisher-2026.jpg){.event-poster}
+:::
+
+::: {.event-details}
+<p class="event-eyebrow">Next event · Tuesday, November 17</p>
+
+## Banisher board game demo
+
+Come join Math Club to play a game of Banisher! Banisher is a game created by Prof. Joe Quinn. Banisher is “a psychospiritual boardgame for liberating humanity from sinister forces.”
+
+<p class="event-meta"><span>📍</span> 1S-213</p>
+
+[View the event poster](assets/banisher-2026.jpg){.event-link}
+:::
+:::
+
+Here is a look back at events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
+
+## Fall 2026
+
 | **Event Title** | **Date** | **Description** | **Extra Information** |
 |-----------------|----------|-----------------|-----------------------|
-| [Banisher board game demo](assets/banisher-2026.jpg) | November 17, 2026: 1S-213 | Come join Math Club to play a game of Banisher! Banisher is a game created by Prof. Joe Quinn. Banisher is "a psychospiritual boardgame for liberating humanity from sinister forces." | |
 | [Higher Level Math Session](assets/higher-math-session-2026.png) | November 4, 2026: 1S-213 | Join the Math Club to hear professors pitch 300+ level math courses. All are welcome! | [List of Spring '27 Upper Level Courses](assets/s27-course-info.pdf) |
-| [Halloween Party](assets/halloween2026.png) | October 29, 2026: 1S-219 | Join the Math Club for a fun event where we'll play games, eat food, and socialize with other people interested in math! |    |
+| [Halloween Party](assets/halloween2026.png) | October 29, 2026: 1S-219 | Join the Math Club for a fun event where we'll play games, eat food, and socialize with other people interested in math! | |
 | [An Introduction to Tropical Mathematics: Turning Polynomials into Polygons](assets/sera-gunn.pdf) | October 15th, 2026: 1S-213 | We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). | [Talk by Dr. Sera Gunn](trop-talk/intro-to-trop.html) |
-
-Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!
 
 ## Fall 2025
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
@@ -24,8 +51,8 @@ Here is a list of past events hosted by the Math Club at CUNY CSI. If you like w
 | **Event Title**                                                                 | **Date**                               | **Description**                                                         | **Extra Information**                 |
 |---------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
 | [Love Algorithms: The Math of Modern Love](assets/OMExMathClub_flyer.pdf)              | February 12th, 2025: 1S-219, 3:00      | How does math shape dating algorithms? | [Short video explaining it all!](https://www.youtube.com/watch?v=uZLkhkCmwHg)             |
-| [Math Club Social](assets/mathclubsocial0225)              | February 25th, 2025: 1S-214, 3:00      | Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social! |             |
-| [Pi Day Celebration!](assets/mathclubsocial0225)              | March 13th, 2025: 1S-214, 2:45      | It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert! |             |
+| [Math Club Social](assets/mathclubsocial0225.pdf)              | February 25th, 2025: 1S-214, 3:00      | Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social! |             |
+| [Pi Day Celebration!](assets/mathclubsocial0225.pdf)              | March 13th, 2025: 1S-214, 2:45      | It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert! |             |
 
 ## Fall 2024
 
@@ -37,4 +64,3 @@ Here is a list of past events hosted by the Math Club at CUNY CSI. If you like w
 | [Beyond the Numbers: An Afternoon of Games!](assets/FallGames1.pdf)            | October 17th, 2024: 1S-214, 2:30      | Join the Math Club for an afternoon of fun, strategy, and board games!   |                   |
 | [Math Club General Interest Meeting](assets/general_interest_flyer.pdf)        | September 19th, 2024: 1S-219, 2:30    | Come learn more about the Math Club and how you can get involved!        | [Slides Here!](assets/csimath_club_gim.pdf)     |
 | [Simons Undergraduate Lecture: "On Buttons and Balls that Cannot Run Away", Prof. Bernd Kawhol of University of Cologne, Germany](assets/bernd.pdf) | September 10th, 2024: 1P-119 Lecture Hall, 2:30 | "In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some **British coins have corners** and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger" | Lecture followed by Q&A with the professor |
-
