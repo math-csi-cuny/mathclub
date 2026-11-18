@@ -70,60 +70,25 @@
     "text": "Join the Math Club for an afternoon of fun, strategy, and board games!\nRoom 1S-214"
   },
   {
-    "objectID": "mathstuff.html",
-    "href": "mathstuff.html",
-    "title": "Cool Math Stuff",
+    "objectID": "2026-Fall/gunn-talk.html",
+    "href": "2026-Fall/gunn-talk.html",
+    "title": "An Introduction to Tropical Mathematics",
     "section": "",
-    "text": "Each semester, the Math Club holds new and exciting events to get the student body involved in mathematics! Here is a past catalogue of our events: if you like what you see, come join us!"
+    "text": "We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). Speaker: Prof. Sera Gunn\nSlides\nRoom 1S-213"
   },
   {
-    "objectID": "mathstuff.html#fall-2024",
-    "href": "mathstuff.html#fall-2024",
-    "title": "Cool Math Stuff",
-    "section": "Fall 2024",
-    "text": "Fall 2024\n\n\n\nEvent Title\nDate\nDescription\nExtra Information\n\n\n\n\nMath Club x Open Minds Exchange!\nOctober 24th, 2024: 1S-219, 2:30\nAn intriguing and intellectual conversation with the Open Minds Exchange!\nFeatured on CSI’s LinkedIn page!\n\n\nBeyond the Numbers: An Afternoon of Games!\nOctober 17th, 2024: 1S-214, 2:30\nJoin the Math Club for an afternoon of fun, strategy, and board games!\n\n\n\nMath Club General Interest Meeting\nSeptember 19th, 2024: 1S-219, 2:30\nCome learn more about the Math Club and how you can get involved!\nSlides Here!\n\n\nSimons Undergraduate Lecture: “On Buttons and Balls that Cannot Run Away”, Prof. Bernd Kawhol of University of Cologne, Germany\nSeptember 10th, 2024: 1P-119 Lecture Hall, 2:30\n“In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some British coins have corners and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger”\nLecture followed by Q&A with the professor"
-  },
-  {
-    "objectID": "mathstuff.html#spring-2024",
-    "href": "mathstuff.html#spring-2024",
-    "title": "Cool Math Stuff",
-    "section": "Spring 2024",
-    "text": "Spring 2024"
-  },
-  {
-    "objectID": "2026-Fall/halloween-2026.html",
-    "href": "2026-Fall/halloween-2026.html",
-    "title": "Halloween Party",
+    "objectID": "2026-Fall/higher-level-math.html",
+    "href": "2026-Fall/higher-level-math.html",
+    "title": "Higher Level Math Session",
     "section": "",
-    "text": "Join the Math Club for a fun event where we’ll play games, eat food, and socialize with other people interested in math!\nRoom 1S-219"
+    "text": "Join the Math Club to hear professors pitch 300+ level math courses. All are welcome!\nList of Spring ’27 Upper Level Courses\nRoom 1S-213"
   },
   {
-    "objectID": "2025-Spring/mathclub-social.html",
-    "href": "2025-Spring/mathclub-social.html",
-    "title": "Math Club Social",
+    "objectID": "2025-Spring/pi-day-2025.html",
+    "href": "2025-Spring/pi-day-2025.html",
+    "title": "Pi Day 2025",
     "section": "",
-    "text": "Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!\nRoom 1S-214"
-  },
-  {
-    "objectID": "2025-Spring/valentines-2025.html",
-    "href": "2025-Spring/valentines-2025.html",
-    "title": "Love Algorithms",
-    "section": "",
-    "text": "How does math shape dating algorithms? Short video explaining it all!\nRoom 1S-219"
-  },
-  {
-    "objectID": "2025-Fall/ferrando-talk.html",
-    "href": "2025-Fall/ferrando-talk.html",
-    "title": "Mathematical Principles of Generative Diffusion Models",
-    "section": "",
-    "text": "What are the mathematical principles behind generative AI? Come join us to find out! Speaker: Prof. Robert Ferrando\nRoom 1S-219"
-  },
-  {
-    "objectID": "2025-Fall/fall-games-2025.html",
-    "href": "2025-Fall/fall-games-2025.html",
-    "title": "Fall Games!",
-    "section": "",
-    "text": "Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun!\nRoom 1S-214"
+    "text": "It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert!\nFOOD AND REFRESHMENTS PROVIDED!\nRoom 1S-214"
   },
   {
     "objectID": "trop-talk/intro-to-trop.html#ingredients",
@@ -371,25 +336,39 @@
     "text": "Classical Riemann-Roch (cont.)\nA sum of two rational functions which is ok for \\(D\\) is also ok for \\(D\\). Likewise any constant multiple is ok for \\(D\\).\n\nI.e. it is a vector space\n\n\nLet \\(\\ell(D)\\) be the dimension of this space.\n\n\nTheorem 2 (Riemann-Roch) \\[\\ell(D) \\ge \\deg(D) + 1 - g\\]"
   },
   {
-    "objectID": "2025-Spring/pi-day-2025.html",
-    "href": "2025-Spring/pi-day-2025.html",
-    "title": "Pi Day 2025",
+    "objectID": "2025-Fall/fall-games-2025.html",
+    "href": "2025-Fall/fall-games-2025.html",
+    "title": "Fall Games!",
     "section": "",
-    "text": "It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert!\nFOOD AND REFRESHMENTS PROVIDED!\nRoom 1S-214"
+    "text": "Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun!\nRoom 1S-214"
   },
   {
-    "objectID": "2026-Fall/higher-level-math.html",
-    "href": "2026-Fall/higher-level-math.html",
-    "title": "Higher Level Math Session",
+    "objectID": "2025-Fall/ferrando-talk.html",
+    "href": "2025-Fall/ferrando-talk.html",
+    "title": "Mathematical Principles of Generative Diffusion Models",
     "section": "",
-    "text": "Join the Math Club to hear professors pitch 300+ level math courses. All are welcome!\nList of Spring ’27 Upper Level Courses\nRoom 1S-213"
+    "text": "What are the mathematical principles behind generative AI? Come join us to find out! Speaker: Prof. Robert Ferrando\nRoom 1S-219"
   },
   {
-    "objectID": "2026-Fall/gunn-talk.html",
-    "href": "2026-Fall/gunn-talk.html",
-    "title": "An Introduction to Tropical Mathematics",
+    "objectID": "2025-Spring/valentines-2025.html",
+    "href": "2025-Spring/valentines-2025.html",
+    "title": "Love Algorithms",
     "section": "",
-    "text": "We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). Speaker: Prof. Sera Gunn\nSlides\nRoom 1S-213"
+    "text": "How does math shape dating algorithms? Short video explaining it all!\nRoom 1S-219"
+  },
+  {
+    "objectID": "2025-Spring/mathclub-social.html",
+    "href": "2025-Spring/mathclub-social.html",
+    "title": "Math Club Social",
+    "section": "",
+    "text": "Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!\nRoom 1S-214"
+  },
+  {
+    "objectID": "2026-Fall/halloween-2026.html",
+    "href": "2026-Fall/halloween-2026.html",
+    "title": "Halloween Party",
+    "section": "",
+    "text": "Join the Math Club for a fun event where we’ll play games, eat food, and socialize with other people interested in math!\nRoom 1S-219"
   },
   {
     "objectID": "2024-Fall/open-minds-exchange.html",
