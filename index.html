@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – Math Club at CUNY CSI</title>
+<title>Home – College of Staten Island Math Club</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./mathclub.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
@@ -46,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8d3ad9c781c51ccd60b292c95058b2c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-92deb88797e12010b0a31097aa521dda.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,9 +77,170 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-upcoming .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-room','listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-upcoming'] = new List('listing-upcoming', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fall-2026 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fall-2026'] = new List('listing-fall-2026', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-spring-2026 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-spring-2026'] = new List('listing-spring-2026', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fall-2025 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fall-2025'] = new List('listing-fall-2025', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-spring-2025 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-spring-2025'] = new List('listing-spring-2025', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fall-2024 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fall-2024'] = new List('listing-fall-2024', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
@@ -86,8 +250,12 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./mathclub.svg" alt="MathClub Icon" class="navbar-logo light-content">
+    <img src="./mathclub.svg" alt="MathClub Icon" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Math Club at CUNY CSI</span>
+    <span class="navbar-title">College of Staten Island Math Club</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -124,9 +292,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#events" id="toc-events" class="nav-link active" data-scroll-target="#events">Events!</a>
+  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link active" data-scroll-target="#upcoming-events">Upcoming Events!</a></li>
+  <li><a href="#past-events" id="toc-past-events" class="nav-link" data-scroll-target="#past-events">Past Events</a>
   <ul class="collapse">
-  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link" data-scroll-target="#upcoming-events">Upcoming Events!</a></li>
+  <li><a href="#fall-2026" id="toc-fall-2026" class="nav-link" data-scroll-target="#fall-2026">Fall 2026</a></li>
+  <li><a href="#spring-2026" id="toc-spring-2026" class="nav-link" data-scroll-target="#spring-2026">Spring 2026</a></li>
   <li><a href="#fall-2025" id="toc-fall-2025" class="nav-link" data-scroll-target="#fall-2025">Fall 2025</a></li>
   <li><a href="#spring-2025" id="toc-spring-2025" class="nav-link" data-scroll-target="#spring-2025">Spring 2025</a></li>
   <li><a href="#fall-2024" id="toc-fall-2024" class="nav-link" data-scroll-target="#fall-2024">Fall 2024</a></li>
@@ -157,158 +327,454 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Welcome to the Math Club at the College of Staten Island!</p>
-<section id="events" class="level1">
-<h1>Events!</h1>
-<section id="upcoming-events" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming Events!</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>Event Title</strong></th>
-<th><strong>Date</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Extra Information</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="assets/banisher-2026.jpg">Banisher board game demo</a></td>
-<td>November 17, 2026: 1S-213</td>
-<td>Come join Math Club to play a game of Banisher! Banisher is a game created by Prof.&nbsp;Joe Quinn. Banisher is “a psychospiritual boardgame for liberating humanity from sinister forces.”</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="assets/higher-math-session-2026.png">Higher Level Math Session</a></td>
-<td>November 4, 2026: 1S-213</td>
-<td>Join the Math Club to hear professors pitch 300+ level math courses. All are welcome!</td>
-<td><a href="assets/s27-course-info.pdf">List of Spring ’27 Upper Level Courses</a></td>
-</tr>
-<tr class="odd">
-<td><a href="assets/halloween2026.png">Halloween Party</a></td>
-<td>October 29, 2026: 1S-219</td>
-<td>Join the Math Club for a fun event where we’ll play games, eat food, and socialize with other people interested in math!</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><a href="assets/sera-gunn.pdf">An Introduction to Tropical Mathematics: Turning Polynomials into Polygons</a></td>
-<td>October 15th, 2026: 1S-213</td>
-<td>We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges).</td>
-<td><a href="trop-talk/intro-to-trop.html">Talk by Dr.&nbsp;Sera Gunn</a></td>
-</tr>
-</tbody>
-</table>
+<section id="upcoming-events" class="level1">
+<h1>Upcoming Events!</h1>
+<p>Unless otherwise specified, all events take place during <em>club hours</em>. I.e. 2:30 pm to 4/4:30 pm</p>
+<div id="listing-upcoming" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1794873600000" data-listing-file-modified-sort="1794986676908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="thumbnail"><a href="./upcoming/banisher.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/banisher-2026.jpg" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="upcoming-events">
+<a href="./upcoming/banisher.html" class="no-external-icon">Banisher board game demo</a>
+</h3>
+<div class="listing-description">
+<a href="./upcoming/banisher.html" class="no-external-icon">
+Come join Math Club to play a game of Banisher! Banisher is a game created by Prof.&nbsp;Joe Quinn. Banisher is “a psychospiritual boardgame for liberating humanity from sinister…
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./upcoming/banisher.html" class="no-external-icon">
+<div class="listing-date">
+Nov 17, 2026
+</div>
+<div class="metadata-value listing-room">
+1S-213
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="past-events" class="level1">
+<h1>Past Events</h1>
 <p>Here is a list of past events hosted by the Math Club at CUNY CSI. If you like what you see, come check us out!</p>
+<section id="fall-2026" class="level2">
+<h2 class="anchored" data-anchor-id="fall-2026">Fall 2026</h2>
+<div id="listing-fall-2026" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1794873600000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="thumbnail"><a href="./2026-Fall/higher-level-math.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/higher-math-session-2026.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2026-Fall/higher-level-math.html" class="no-external-icon">Higher Level Math Session</a>
+</h3>
+<div class="listing-description">
+<a href="./2026-Fall/higher-level-math.html" class="no-external-icon">
+Join the Math Club to hear professors pitch 300+ level math courses. All are welcome!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2026-Fall/higher-level-math.html" class="no-external-icon">
+<div class="listing-date">
+Nov 17, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1793232000000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="thumbnail"><a href="./2026-Fall/halloween-2026.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/halloween2026.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2026-Fall/halloween-2026.html" class="no-external-icon">Halloween Party</a>
+</h3>
+<div class="listing-description">
+<a href="./2026-Fall/halloween-2026.html" class="no-external-icon">
+Join the Math Club for a fun event where we’ll play games, eat food, and socialize with other people interested in math!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2026-Fall/halloween-2026.html" class="no-external-icon">
+<div class="listing-date">
+Oct 29, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1792022400000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<div class="thumbnail"><a href="./2026-Fall/gunn-talk.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/sera-gunn.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2026-Fall/gunn-talk.html" class="no-external-icon">An Introduction to Tropical Mathematics</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./2026-Fall/gunn-talk.html" class="no-external-icon">Turning Polynomials into Polygons</a>
+</div>
+<div class="listing-description">
+<a href="./2026-Fall/gunn-talk.html" class="no-external-icon">
+We will look at the various ways that the mathematics of curves and surfaces is analogous to that of polygons and graphs (networks of vertices and edges). Speaker…
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2026-Fall/gunn-talk.html" class="no-external-icon">
+<div class="listing-date">
+Oct 15, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="spring-2026" class="level2">
+<h2 class="anchored" data-anchor-id="spring-2026">Spring 2026</h2>
+<div id="listing-spring-2026" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<div class="thumbnail"><a href="./2026-Spring/pi-day-2026.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/pi-day-2026.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2026-Spring/pi-day-2026.html" class="no-external-icon">Pi Day 2026</a>
+</h3>
+<div class="listing-description">
+<a href="./2026-Spring/pi-day-2026.html" class="no-external-icon">
+It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even…
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2026-Spring/pi-day-2026.html" class="no-external-icon">
+<div class="listing-date">
+Mar 17, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="fall-2025" class="level2">
 <h2 class="anchored" data-anchor-id="fall-2025">Fall 2025</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>Event Title</strong></th>
-<th><strong>Date</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Extra Information</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="assets/OMExMathClub_flyer.pdf">Mathematical Principles of Generative Diffusion Models</a></td>
-<td>September 18th, 2025: 1S-219, 2:30</td>
-<td>What are the mathematical principles behind generative AI? Come join us on Thursday, 9/18/25, to find out!</td>
-<td>Invited talk by Dr.&nbsp;Robert Ferrando.</td>
-</tr>
-<tr class="even">
-<td><a href="assets/FallGames2.pdf">Fall Games!</a></td>
-<td>October 6th, 2025: 1S-214, 2:30</td>
-<td>Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun!</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<div id="listing-fall-2025" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759968000000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="thumbnail"><a href="./2025-Fall/fall-games-2025.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/FallGames2.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2025-Fall/fall-games-2025.html" class="no-external-icon">Fall Games!</a>
+</h3>
+<div class="listing-description">
+<a href="./2025-Fall/fall-games-2025.html" class="no-external-icon">
+Come join us at the Math tutoring lab to play math board games and eat pizza! Mingle with other math majors and have fun!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2025-Fall/fall-games-2025.html" class="no-external-icon">
+<div class="listing-date">
+Oct 9, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1758153600000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="thumbnail"><a href="./2025-Fall/ferrando-talk.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/ferrando-talk.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2025-Fall/ferrando-talk.html" class="no-external-icon">Mathematical Principles of Generative Diffusion Models</a>
+</h3>
+<div class="listing-description">
+<a href="./2025-Fall/ferrando-talk.html" class="no-external-icon">
+What are the mathematical principles behind generative AI? Come join us to find out! Speaker: Prof.&nbsp;Robert Ferrando
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2025-Fall/ferrando-talk.html" class="no-external-icon">
+<div class="listing-date">
+Sep 18, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="spring-2025" class="level2">
 <h2 class="anchored" data-anchor-id="spring-2025">Spring 2025</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>Event Title</strong></th>
-<th><strong>Date</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Extra Information</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="assets/OMExMathClub_flyer.pdf">Love Algorithms: The Math of Modern Love</a></td>
-<td>February 12th, 2025: 1S-219, 3:00</td>
-<td>How does math shape dating algorithms?</td>
-<td><a href="https://www.youtube.com/watch?v=uZLkhkCmwHg">Short video explaining it all!</a></td>
-</tr>
-<tr class="even">
-<td><a href="assets/mathclubsocial0225">Math Club Social</a></td>
-<td>February 25th, 2025: 1S-214, 3:00</td>
-<td>Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="assets/mathclubsocial0225">Pi Day Celebration!</a></td>
-<td>March 13th, 2025: 1S-214, 2:45</td>
-<td>It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even dessert!</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<div id="listing-spring-2025" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1773360000000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<div class="thumbnail"><a href="./2025-Spring/pi-day-2025.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/pi-day-2025.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2025-Spring/pi-day-2025.html" class="no-external-icon">Pi Day 2025</a>
+</h3>
+<div class="listing-description">
+<a href="./2025-Spring/pi-day-2025.html" class="no-external-icon">
+It’s (almost) Pi Day! A time to honor the beauty of circles, the brilliance of 3.1415…, and the joy of discovery. Let’s celebrate with creativity, curiosity, and maybe even…
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2025-Spring/pi-day-2025.html" class="no-external-icon">
+<div class="listing-date">
+Mar 13, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1740441600000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="thumbnail"><a href="./2025-Spring/mathclub-social.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/mathclubsocial2025.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2025-Spring/mathclub-social.html" class="no-external-icon">Math Club Social</a>
+</h3>
+<div class="listing-description">
+<a href="./2025-Spring/mathclub-social.html" class="no-external-icon">
+Whether it’s numbers or nonsense, come chat with the Math Club at our relaxing afternoon social!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2025-Spring/mathclub-social.html" class="no-external-icon">
+<div class="listing-date">
+Feb 25, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1739404800000" data-listing-file-modified-sort="1794986676824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="thumbnail"><a href="./2025-Spring/valentines-2025.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/valentines-2025.jpg" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2025-Spring/valentines-2025.html" class="no-external-icon">Love Algorithms</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./2025-Spring/valentines-2025.html" class="no-external-icon">The Math of Modern Love</a>
+</div>
+<div class="listing-description">
+<a href="./2025-Spring/valentines-2025.html" class="no-external-icon">
+How does math shape dating algorithms? Short video explaining it all!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2025-Spring/valentines-2025.html" class="no-external-icon">
+<div class="listing-date">
+Feb 13, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="fall-2024" class="level2">
 <h2 class="anchored" data-anchor-id="fall-2024">Fall 2024</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>Event Title</strong></th>
-<th><strong>Date</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Extra Information</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="assets/megan.pdf">Student Research Presentations (Megan Trapanese)</a></td>
-<td>December 12th, 2024: 1S-219, 2:30</td>
-<td>Megan Trapanese (senior, MHC) presents her novel research on dimensonal reduction in the context of ensemble ocean modeling</td>
-<td><a href="https://www.overleaf.com/read/qttczdghnddj#5a5cc9">Check out her talk!</a></td>
-</tr>
-<tr class="even">
-<td><a href="assets/1126_mathclubposter.pdf">Topology &amp; Cosmology, presented by Dr.&nbsp;Joseph Quinn!</a></td>
-<td>November 26th, 2024: 1S-219, 2:30</td>
-<td>A talk on 3-dimensional topology and its relationship to the shape of the physical universe.</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="assets/OMExMathClub_flyer.pdf">Math Club x Open Minds Exchange!</a></td>
-<td>October 24th, 2024: 1S-219, 2:30</td>
-<td>An intriguing and intellectual conversation with the Open Minds Exchange!</td>
-<td><a href="https://www.linkedin.com/posts/college-of-staten-island-city-university-of-new-york_wearecsi-activity-7256737820742938624-85hG?utm_source=share&amp;utm_medium=member_desktop">Featured on CSI’s LinkedIn page!</a></td>
-</tr>
-<tr class="even">
-<td><a href="assets/FallGames1.pdf">Beyond the Numbers: An Afternoon of Games!</a></td>
-<td>October 17th, 2024: 1S-214, 2:30</td>
-<td>Join the Math Club for an afternoon of fun, strategy, and board games!</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="assets/general_interest_flyer.pdf">Math Club General Interest Meeting</a></td>
-<td>September 19th, 2024: 1S-219, 2:30</td>
-<td>Come learn more about the Math Club and how you can get involved!</td>
-<td><a href="assets/csimath_club_gim.pdf">Slides Here!</a></td>
-</tr>
-<tr class="even">
-<td><a href="assets/bernd.pdf">Simons Undergraduate Lecture: “On Buttons and Balls that Cannot Run Away”, Prof.&nbsp;Bernd Kawhol of University of Cologne, Germany</a></td>
-<td>September 10th, 2024: 1P-119 Lecture Hall, 2:30</td>
-<td>“In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some <strong>British coins have corners</strong> and what went wrong with a booster rocket at the 1986 disaster of the space shuttle Challenger”</td>
-<td>Lecture followed by Q&amp;A with the professor</td>
-</tr>
-</tbody>
-</table>
+<div id="listing-fall-2024" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1733961600000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="thumbnail"><a href="./2024-Fall/trapanese-talk.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/megan.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/trapanese-talk.html" class="no-external-icon">Student Research Presentations (Megan Trapanese)</a>
+</h3>
+<div class="listing-description">
+<a href="./2024-Fall/trapanese-talk.html" class="no-external-icon">
+Megan Trapanese (senior, MHC) presents her novel research on dimensional reduction in the context of ensemble ocean modeling Check out her talk!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/trapanese-talk.html" class="no-external-icon">
+<div class="listing-date">
+Dec 12, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1732579200000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<div class="thumbnail"><a href="./2024-Fall/quinn-talk.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/1126_mathclubposter.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/quinn-talk.html" class="no-external-icon">Topology &amp; Cosmology</a>
+</h3>
+<div class="listing-description">
+<a href="./2024-Fall/quinn-talk.html" class="no-external-icon">
+A talk on 3-dimensional topology and its relationship to the shape of the physical universe. Presented by Prof.&nbsp;Joseph Quinn!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/quinn-talk.html" class="no-external-icon">
+<div class="listing-date">
+Nov 26, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1729728000000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="thumbnail"><a href="./2024-Fall/open-minds-exchange.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/OMExMathClub_flyer.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/open-minds-exchange.html" class="no-external-icon">Math Club x Open Minds Exchange!</a>
+</h3>
+<div class="listing-description">
+<a href="./2024-Fall/open-minds-exchange.html" class="no-external-icon">
+An intriguing and intellectual conversation with the Open Minds Exchange! Featured on CSI’s LinkedIn page!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/open-minds-exchange.html" class="no-external-icon">
+<div class="listing-date">
+Oct 24, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="thumbnail"><a href="./2024-Fall/fall-games-2024.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/FallGames1.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/fall-games-2024.html" class="no-external-icon">Beyond the Numbers: An Afternoon of Games!</a>
+</h3>
+<div class="listing-description">
+<a href="./2024-Fall/fall-games-2024.html" class="no-external-icon">
+Join the Math Club for an afternoon of fun, strategy, and board games!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/fall-games-2024.html" class="no-external-icon">
+<div class="listing-date">
+Oct 17, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1726704000000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="thumbnail"><a href="./2024-Fall/interest-meeting.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/general_interest_flyer.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/interest-meeting.html" class="no-external-icon">Math Club General Interest Meeting</a>
+</h3>
+<div class="listing-description">
+<a href="./2024-Fall/interest-meeting.html" class="no-external-icon">
+Come learn more about the Math Club and how you can get involved! Slides Here!
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/interest-meeting.html" class="no-external-icon">
+<div class="listing-date">
+Sep 19, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1725926400000" data-listing-file-modified-sort="1794986676823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="thumbnail"><a href="./2024-Fall/kawhol-talk.html" class="no-external-icon">
+
+<img loading="lazy" src="./assets/bernd.png" class="thumbnail-image" alt="Advertisement poster for the event">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./2024-Fall/kawhol-talk.html" class="no-external-icon">On Buttons and balls that Cannot Run Away</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./2024-Fall/kawhol-talk.html" class="no-external-icon">Simons Undergraduate Lecture Series</a>
+</div>
+<div class="listing-description">
+<a href="./2024-Fall/kawhol-talk.html" class="no-external-icon">
+In my talk, I shall survey some surprising geometrical facts and some of the history of their discovery. You will understand why some <strong>British coins have corners</strong> and what…
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./2024-Fall/kawhol-talk.html" class="no-external-icon">
+<div class="listing-date">
+Sep 10, 2024
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>
