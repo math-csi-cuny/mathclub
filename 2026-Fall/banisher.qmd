@@ -5,6 +5,8 @@ room: 1S-213
 image: "../assets/banisher-2026.jpg"
 ---
 
+**Cancelled** (to be rescheduled in Spring)
+
 Come join Math Club to play a game of Banisher! Banisher is a game created by
 Prof. Joe Quinn. Banisher is "a psychospiritual boardgame for liberating
 humanity from sinister forces." 
